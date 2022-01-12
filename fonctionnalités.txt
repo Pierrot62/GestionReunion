@@ -1,0 +1,43 @@
+Fonctionnalités en 3 étapes : 
+
+============= Avant =============
+Planification de la réunion
+Liste des participants
+Convocations/rappels aux participants de la date de réunion
+Regroupement des questions qui seront traitées pdt la réunion
+Formulaire d'ordre du jour simple et inuituif
+Distribution de l'ordre du jour
+repartition des taches de préparation aux participants
+gestion de fichiers liés à la réunion
+Outils de repartition du temps entre les différents sujets
+Rattachement de fichier et d'hyperliens a la réunion
+Système de permissions.
+=========================================
+
+============= Pendant =============
+Listing des participant
+gestion état de présence du participant 
+Rappels des taches de réunions automatiques et etat des progressions
+Captures de notes instantané
+Outils de votes/sondage en temps réel
+Attribution des actions à entreprendre => points importants a faire apres la réunion
+Conclusion de la réunion, signatures etc ...
+=========================================
+
+============= Apres réunions =============
+Archivage de la réunions,  documents, questions etc ...
+Compte rendu personnalisable (création, distribution et archivage)
+gestion de fichiers et option de recherche
+tableau de bords analytiques
+Archivage et distributions des actions a effectuer apres la réunion
+Etat d'avancement des actions a effectuer
+tableau analytique d'etat des actions.
+Rattachement de fichier et d'hyperliens a la réunion
+=========================================
+
+
+
+
+
+
+
