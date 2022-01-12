@@ -1,0 +1,35 @@
+liste des participent : dire si la présense est obligatoire ou facultatives
+
+remplacer "question" par "interaction"
+les questions sont pas forcément posé en avance
+
+"affin" n'a qu'un 'f'
+
+les participents peuvent rajouter des fichiers et des hypertexts en cour de réunion
+
+les participents peuvent ajouter des fichiers post-réunion (par ex lier au tache réalisé)
+
+pas de connection-deconnection
+
+-------------------------------
+
+les phrases d'intro sont bien
+
+repartition des roles confuse: admi = en chage de la maintenance
+
+role de hyerachie (un supperieur doit pouvoir voir les compterendus de son equipe.. et de l'equipe de l'un des membres de son équipe) (plusieurs niveau)
+
+pas faire de doublon(ex gesion des fichier)
+rajouter par exemple "faire le controle d'usage sur le televersement des fichier" (evite la redondance)
+
+lieu de réunion: cas d'une réunion à distance et en presense en meme temps à traiter
+
+contrôle de saisie à prévoir (limite de temps max par exemple)
+
+remplacer "partie de réunion" par "sujet/sujet abordé"
+
+modification de la réunion à voir en détail: (renotification au choix de l'editeur par exemple)
+
+modification de la réunion à voir (on notifie tous le monde)
+
+envoie de mail: gétion de la bonne reception du mail (ou non)
