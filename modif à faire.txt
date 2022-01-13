@@ -1,26 +1,33 @@
-liste des participent : dire si la présense est obligatoire ou facultatives
++---------------------+
+|Analyse fonctionnelle|
++---------------------+
+
+liste des participants : dire si la présense est obligatoire ou facultative
 
 remplacer "question" par "interaction"
-les questions sont pas forcément posé en avance
+les questions ne sont pas forcément posées en avance
 
 "affin" n'a qu'un 'f'
 
-les participents peuvent rajouter des fichiers et des hypertexts en cour de réunion
+les participants peuvent rajouter des fichiers et des hypertexts en cours de réunion
 
-les participents peuvent ajouter des fichiers post-réunion (par ex lier au tache réalisé)
+les participants peuvent ajouter des fichiers post-réunion (par ex lier aux taches réalisées)
 
 pas de connection-deconnection
 
--------------------------------
+
++-----------------+
+|Analyse detaillee|
++-----------------+
 
 les phrases d'intro sont bien
 
-repartition des roles confuse: admi = en chage de la maintenance
+repartition des roles confuse: admin = en charge de la maintenance
 
-role de hyerachie (un supperieur doit pouvoir voir les compterendus de son equipe.. et de l'equipe de l'un des membres de son équipe) (plusieurs niveau)
+role de hierarchie (un superieur doit pouvoir voir les comptes rendus de son equipe.. et de l'equipe de l'un des membres de son équipe) (plusieurs niveau)
 
-pas faire de doublon(ex gesion des fichier)
-rajouter par exemple "faire le controle d'usage sur le televersement des fichier" (evite la redondance)
+pas faire de doublon(ex gestion des fichiers)
+rajouter par exemple "faire le controle d'usage sur le televersement des fichiers" (evite la redondance)
 
 lieu de réunion: cas d'une réunion à distance et en presense en meme temps à traiter
 
@@ -32,4 +39,4 @@ modification de la réunion à voir en détail: (renotification au choix de l'ed
 
 modification de la réunion à voir (on notifie tous le monde)
 
-envoie de mail: gétion de la bonne reception du mail (ou non)
+envoie de mail: gestion de la bonne reception du mail (ou non)
