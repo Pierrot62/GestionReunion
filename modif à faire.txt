@@ -1,3 +1,7 @@
++---------------------+
+|Analyse fonctionnelle|
++---------------------+
+
 liste des participent : dire si la présense est obligatoire ou facultatives
 
 remplacer "question" par "interaction"
@@ -11,7 +15,10 @@ les participents peuvent ajouter des fichiers post-réunion (par ex lier au tach
 
 pas de connection-deconnection
 
--------------------------------
+
++-----------------+
+|Analyse detaillee|
++-----------------+
 
 les phrases d'intro sont bien
 
