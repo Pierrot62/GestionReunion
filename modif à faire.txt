@@ -2,18 +2,18 @@
 |Analyse fonctionnelle|
 +---------------------+
 
-liste des participent : dire si la présense est obligatoire ou facultatives
+-liste des participent : dire si la présense est obligatoire ou facultatives-
 
-remplacer "question" par "interaction"
-les questions sont pas forcément posé en avance
+-remplacer "question" par "interaction"-
+-les questions sont pas forcément posé en avance-
 
-"affin" n'a qu'un 'f'
+-"affin" n'a qu'un 'f'-
 
-les participents peuvent rajouter des fichiers et des hypertexts en cour de réunion
+-les participents peuvent rajouter des fichiers et des hypertexts en cour de réunion-
 
-les participents peuvent ajouter des fichiers post-réunion (par ex lier au tache réalisé)
+-les participents peuvent ajouter des fichiers post-réunion (par ex lier au tache réalisé)-
 
-pas de connection-deconnection
+-pas de connection-deconnection-
 
 
 +-----------------+
