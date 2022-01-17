@@ -47,7 +47,7 @@ function afficherPage($page)
 	$titre=$page[2];
 	$roleRequis = $page[3];;
 	$api = $page[4];
-	$roleConnecte = isset($_SESSION["utilisateur"])?$_SESSION["utilisateur"]->getRole():0;
+	$roleConnecte = isset($_SESSION["utilisateur"])?$_SESSION["utilisateur"]->getRoleApp():0;
 	if  ($roleConnecte>= $roleRequis) {
 		include 'PHP/VIEW/GENERAL/Head.php';
 		include 'PHP/VIEW/GENERAL/Header.php';

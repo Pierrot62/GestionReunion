@@ -25,7 +25,7 @@ CREATE TABLE Organisations(
 -- Table structure for table `RolesApps`
 --
 CREATE TABLE RolesApp(
-   IdRoleApp INT AUTO_INCREMENT PRIMARY KEY,
+   IdRoleApp INT PRIMARY KEY,
    libelleRoleApp VARCHAR(20) 
 )ENGINE=InnoDB;
 
