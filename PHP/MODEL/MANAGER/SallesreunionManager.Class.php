@@ -5,26 +5,26 @@ class SallesreunionManager
 
 	public static function add(Sallesreunion $obj)
 	{
- 		Services::add($obj);
+ 		ClassServices::add($obj);
 	}
 
 	public static function update(Sallesreunion $obj)
 	{
- 		Services::update($obj);
+ 		ClassServices::update($obj);
 	}
 
 	public static function delete(Sallesreunion $obj)
 	{
- 		Services::delete($obj);
+ 		ClassServices::delete($obj);
 	}
 
 	public static function findById($id)
 	{
- 		Services::select(Sallesreunion::getAttributes(),"Sallesreunion",["IdSalle" => $id]);
+ 		ClassServices::select(Sallesreunion::getAttributes(),"Sallesreunion",["IdSalle" => $id]);
 	}
 
 	public static function getList()
 	{
- 		Services::select(Sallesreunion::getAttributes(),"Sallesreunion");
+ 		ClassServices::select(Sallesreunion::getAttributes(),"Sallesreunion");
 	}
 }

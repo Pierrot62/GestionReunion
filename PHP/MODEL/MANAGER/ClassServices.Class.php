@@ -1,6 +1,6 @@
 <?php
 
-class Services
+class ClassServices
 {
 
 	public static function add($obj)

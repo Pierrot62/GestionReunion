@@ -4,7 +4,7 @@ html, body {
 	padding : 0;
 }
 
-div, header, footer, nav, article {
+div, header, footer, nav, article, main, input,button,a{
 	display : flex;
 	flex : 1;
 }
@@ -17,7 +17,43 @@ img, video {
 	flex-direction : column;
 }
 
+a{
+	text-decoration: none;
+}
+
 .titre {
 	flex: 5;
 }
 
+.flex-0-1{
+	flex:0.1;
+}
+
+.GridForm{
+	display : grid;
+	grid-template-columns: 2fr 2fr 0.5fr 0.5fr;
+	grid-gap: 0.5em;
+}
+
+.GridForm div,button,a{
+	justify-content: center;
+	align-items: center;
+}
+
+.titreGridForm{
+	grid-column: 1/5 ;
+}
+
+.GridListe{
+	display : grid;
+	border : 0.5px solid rgb(255, 0, 128);
+}
+
+.GridListe div,button,a{
+	justify-content: center;
+	align-items: center;
+}
+
+.test{
+	border: 1px solid rgb(255, 0, 128);
+}

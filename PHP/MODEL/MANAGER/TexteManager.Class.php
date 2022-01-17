@@ -5,7 +5,7 @@ class TexteManager
 
 	public static function findByCodes($codeLangue,$codeTexte)
 	{
-		 return Services::select([$codeLangue],"texte",["codeTexte" => $codeTexte]);
+		 return ClassServices::select([$codeLangue],"texte",["codeTexte" => $codeTexte]);
 	}
 
 	public static function checkIfLangExist($codeLangue)
