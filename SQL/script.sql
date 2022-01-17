@@ -42,7 +42,7 @@ CREATE TABLE Reunions(
 --
 -- Table structure for table `RolesReunions`
 --
-CREATE TABLE RolesReunions(
+CREATE TABLE RolesReunion(
    IdRoleReunion INT AUTO_INCREMENT PRIMARY KEY,
    libelleRoleReunion VARCHAR(20)
 )ENGINE=InnoDB;
@@ -50,7 +50,7 @@ CREATE TABLE RolesReunions(
 --
 -- Table structure for table `FichiersReunions`
 --
-CREATE TABLE FichiersReunions(
+CREATE TABLE FichiersReunion(
    IdFichierReunion INT AUTO_INCREMENT PRIMARY KEY,
    nomFichierReunion VARCHAR(200) ,
    hyperlienFichierReunion TEXT,
@@ -177,7 +177,7 @@ CREATE TABLE Villes(
    IdPays INT
 )ENGINE=InnoDB;
 
-ALTER TABLE FichiersReunions ADD CONSTRAINT FK_FichiersReunion_Reunions FOREIGN KEY(IdReunion) REFERENCES Reunions(IdReunion);
+ALTER TABLE FichiersReunion ADD CONSTRAINT FK_FichiersReunion_Reunions FOREIGN KEY(IdReunion) REFERENCES Reunions(IdReunion);
 ALTER TABLE Services ADD CONSTRAINT FK_Services_Organisations FOREIGN KEY(IdOrganisation) REFERENCES Organisations(IdOrganisation);
 ALTER TABLE SallesReunion ADD CONSTRAINT FK_SallesReunion_Organisations FOREIGN KEY(IdOrganisation) REFERENCES Organisations(IdOrganisation);
 ALTER TABLE Sondages ADD CONSTRAINT FK_Sondage_Reunion FOREIGN KEY(IdReunion) REFERENCES Reunions(IdReunion);
@@ -186,11 +186,11 @@ ALTER TABLE Sujets ADD CONSTRAINT FK_Sujets_Users FOREIGN KEY(IdUser) REFERENCES
 ALTER TABLE Sujets ADD CONSTRAINT FK_Sujets_Reunions FOREIGN KEY(IdReunion) REFERENCES Reunions(IdReunion);
 ALTER TABLE Actions ADD CONSTRAINT FK_Actions_Users FOREIGN KEY(IdUser) REFERENCES Users(IdUser);
 ALTER TABLE Actions ADD CONSTRAINT FK_Actions_Reunions FOREIGN KEY(IdReunion) REFERENCES Reunions(IdReunion);
-ALTER TABLE AffectationsUser ADD CONSTRAINT FK_AffectionsUsers_Services FOREIGN KEY(IdService) REFERENCES Services(IdService);
-ALTER TABLE AffectationsUser ADD CONSTRAINT FK_AffectionsUsers_Users FOREIGN KEY(IdUser) REFERENCES Users(IdUser);
+ALTER TABLE AffectationsUser ADD CONSTRAINT FK_AffectionsUser_Services FOREIGN KEY(IdService) REFERENCES Services(IdService);
+ALTER TABLE AffectationsUser ADD CONSTRAINT FK_AffectionsUser_Users FOREIGN KEY(IdUser) REFERENCES Users(IdUser);
 ALTER TABLE Participations ADD CONSTRAINT FK_Participation_Users FOREIGN KEY(IdUser) REFERENCES Users(IdUser);
 ALTER TABLE Participations ADD CONSTRAINT FK_Participation_Reunions FOREIGN KEY(IdReunion) REFERENCES Reunions(IdReunion);
-ALTER TABLE Participations ADD CONSTRAINT FK_Participation_RolesReunions FOREIGN KEY(IdRoleReunion) REFERENCES RolesReunions(IdRoleReunion);
+ALTER TABLE Participations ADD CONSTRAINT FK_Participation_RolesReunion FOREIGN KEY(IdRoleReunion) REFERENCES RolesReunion(IdRoleReunion);
 ALTER TABLE Reservations ADD CONSTRAINT FK_Reservations_Reunions FOREIGN KEY(IdReunion) REFERENCES Reunions(IdReunion);
 ALTER TABLE Reservations ADD CONSTRAINT FK_Reservations_SallesReunion FOREIGN KEY(IdSalle) REFERENCES SallesReunion(IdSalle);
 ALTER TABLE Villes ADD CONSTRAINT FK_Villes_Pays FOREIGN KEY(IdPays) REFERENCES Pays(IdPays);
